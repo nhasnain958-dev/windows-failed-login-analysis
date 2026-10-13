@@ -35,6 +35,9 @@ index=* EventCode=4625
 index=* EventCode=4625
 | table _time Account_Name Failure_Reason
 ```
+## Screenshot
+
+![Splunk Failed Login Count](failed-login-count.png)
 
 ## Findings
 Failed login events were found in the available Windows Security Logs. The recorded failure reason was "Unknown user name or bad password."
